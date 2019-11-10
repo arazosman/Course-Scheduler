@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B91E1BA-E1F6-42BA-9055-E0BFF2062724}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>YM</RootNamespace>
+    <AssemblyName>YM</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\arazo\Desktop\Programs\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>DC99B09C3D364F59AE649B54908E8F70B7CB622D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>YM_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.60.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.60.6\lib\net451\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.15.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 8.0.15\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormCourseClasses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCourseClasses.Designer.cs">
+      <DependentUpon>FormCourseClasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLoginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoginScreen.Designer.cs">
+      <DependentUpon>FormLoginScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewUser.Designer.cs">
+      <DependentUpon>FormNewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStudentProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStudentProfile.Designer.cs">
+      <DependentUpon>FormStudentProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTeacherProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTeacherProfile.Designer.cs">
+      <DependentUpon>FormTeacherProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUserScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserScreen.Designer.cs">
+      <DependentUpon>FormUserScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStudentCourses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStudentCourses.Designer.cs">
+      <DependentUpon>FormStudentCourses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTeacherClasses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTeacherClasses.Designer.cs">
+      <DependentUpon>FormTeacherClasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControlClasses.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlClasses.Designer.cs">
+      <DependentUpon>UserControlClasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlCourses.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlCourses.Designer.cs">
+      <DependentUpon>UserControlCourses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlStudents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlStudents.Designer.cs">
+      <DependentUpon>UserControlStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlTeachers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlTeachers.Designer.cs">
+      <DependentUpon>UserControlTeachers.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormCourseClasses.resx">
+      <DependentUpon>FormCourseClasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLoginScreen.resx">
+      <DependentUpon>FormLoginScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewUser.resx">
+      <DependentUpon>FormNewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStudentProfile.resx">
+      <DependentUpon>FormStudentProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTeacherProfile.resx">
+      <DependentUpon>FormTeacherProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUserScreen.resx">
+      <DependentUpon>FormUserScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStudentCourses.resx">
+      <DependentUpon>FormStudentCourses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTeacherClasses.resx">
+      <DependentUpon>FormTeacherClasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UserControlClasses.resx">
+      <DependentUpon>UserControlClasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlCourses.resx">
+      <DependentUpon>UserControlCourses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlStudents.resx">
+      <DependentUpon>UserControlStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlTeachers.resx">
+      <DependentUpon>UserControlTeachers.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SqlServer.Express.11.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2012 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
