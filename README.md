@@ -38,6 +38,7 @@ Open up the *YM.sln* file on Visual Studio and specify the server information on
   ![Student Courses](/screenshots/student_courses.png)
   
 - Teachers Page:
+
   ![Teachers Page](/screenshots/teachers.png)
   
 - Teacher Classes:
