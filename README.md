@@ -17,6 +17,8 @@ Open up the *YM.sln* file on Visual Studio and specify the server information on
 
   ![Login Page](/screenshots/login.png)
   
+  Note: To login as admin, type *admin* for both of user ID and password.
+  
 - Signup Page:
 
   ![Signup Page](/screenshots/signup.png)
