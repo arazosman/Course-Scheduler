@@ -3,7 +3,7 @@ A course scheduler tool which written and designed in C# / Windows Form Applicat
 Contributors: Osman Araz, Görkem Timur, Kıymet Çelebi, Muhammet Çeneli, Furkan Zerey, Seyfullah Eraslan.
 
 ## Prerequisites
-MySQL Community Server needs to be installed on your computer. You can get it here: https://dev.mysql.com/downloads/mysql/
+MySQL Community Server and Visual Studio needs to be installed on your computer. You can get these here: https://dev.mysql.com/downloads/mysql and https://visualstudio.microsoft.com/vs/
 
 ## Database Creation
 Before build the program, you need to create the database in MySQL. Open up the MySQL Community Server and import the *DATABASE.SQL* file into it.
