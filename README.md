@@ -5,11 +5,11 @@ Contributors: Osman Araz, Görkem Timur, Kıymet Çelebi, Muhammet Çeneli, Furk
 ## Prerequisites
 MySQL Community Server needs to be installed on your computer. You can get it here: https://dev.mysql.com/downloads/mysql/
 
-## Adjustments
-Before build the program, you need to create the database in MySQL. Open up the MySQL Community Server and import the *DATABASE.SQL* file into it. And then you need to specify the server information on the *Helper.cs* file. Open up the file and edit the *connectionString* by changing the capitalized words. Note that the database name you created must be same in the *connectionString*.
+## Database Creation
+Before build the program, you need to create the database in MySQL. Open up the MySQL Community Server and import the *DATABASE.SQL* file into it.
 
 ## Installation
-Open up the *YM.sln* file on Visual Studio and make the adjustment mentioned above. Then build it.
+Open up the *YM.sln* file on Visual Studio and specify the server information on the *Helper.cs* file. Open up the file and edit the *connectionString* by changing the capitalized words. Note that the database name you created must be same in the *connectionString*.. Then build it.
 
 ## Screenshots
 
