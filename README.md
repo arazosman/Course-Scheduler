@@ -13,36 +13,50 @@ Open up the *YM.sln* file on Visual Studio and specify the server information on
 
 ## Screenshots
 
-- Login Page:
+- Login Page (To login as admin, type *admin* for both of user ID and password):
 
-  ![Login Page](/screenshots/login.png)
-  
-  Note: To login as admin, type *admin* for both of user ID and password.
+<p align="center">
+  <img src="screenshots/login.png" width="300px">
+</p>
   
 - Signup Page:
 
-  ![Signup Page](/screenshots/signup.png)
+<p align="center">
+  <img src="screenshots/signup.png" width="400px">
+</p>
 
 - Courses Page:
 
-  ![Courses Page](/screenshots/courses.png)
+<p align="center">
+  <img src="screenshots/courses.png" width="800px">
+</p>
 
 - Classes Page:
 
-  ![Classes Page](/screenshots/classes.png)
+<p align="center">
+  <img src="screenshots/classes.png" width="800px">
+</p>
 
 - Students Page:
 
-  ![Students Page](/screenshots/students.png)
+<p align="center">
+  <img src="screenshots/students.png" width="800px">
+</p>
   
 - Student Courses:
 
-  ![Student Courses](/screenshots/student_courses.png)
+<p align="center">
+  <img src="screenshots/student_courses.png" width="400px">
+</p>
   
 - Teachers Page:
 
-  ![Teachers Page](/screenshots/teachers.png)
+<p align="center">
+  <img src="screenshots/teachers.png" width="800px">
+</p>
   
 - Teacher Classes:
 
-  ![Teacher Classes](/screenshots/teacher_classes.png)
+<p align="center">
+  <img src="screenshots/teacher_classes.png" width="400px">
+</p>
