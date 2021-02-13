@@ -1,6 +1,5 @@
 # Course-Scheduler
 A course scheduler tool which is written and designed in C# / Windows Form Application. It uses MySQL as database system.
-Contributors: Osman Araz, Görkem Timur, Kıymet Çelebi, Muhammet Çeneli, Furkan Zerey, Seyfullah Eraslan.
 
 ## Prerequisites
 MySQL Community Server and Visual Studio needs to be installed on your computer. You can get these here: https://dev.mysql.com/downloads/mysql/ and https://visualstudio.microsoft.com/vs/
